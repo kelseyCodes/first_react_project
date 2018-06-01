@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+@font-face {
+    font-family: 'Hipster Boss';
+    src: url('./Sweet\ Hipster.ttf'); 
+}
+
+
+
+.App-title {
+  margin: 0px;
+  font-family: 'Hipster Boss';
+  font-size: 7em;
+  letter-spacing: .1em;
+}
+
+
+.container {
+  float: left;
+  margin-left: 2vw;
+}
+
+.thumbnail {
+  margin: .5vw;
+  width: 15vw;
+  height: 15vw;
+  float: left;
+}
+
+.lgContainer {
+  float: left;
+  margin: 2vw;
+  height: 28vw;
+}
+
+.profile {
+  margin: .5vw;
+  width: 30.75vw;
+  height: 28vw;
+  float: left;
+  border: 1px solid black;
+  position:relative;
+ /* animation-duration: 3s;
+  animation-name: run;
+  animation-iteration-count: 1*/
+}     
+/*@-webkit-keyframes run {
+    0% { left: 0;}
+    100%{ left : 100%;}
+}*/
+
+.hidden {
+  position: absolute;
+  left: -31.25vw
+}
+
+.lgImage {
+  width: 20vw;
+  height: 20vw;
+  float: left;
+}
+
+.imgDiv {
+  width: 20vw;
+  height: 15vw;
+  float: left;
+  margin: .5vw;
+}
+
+.nameDiv {
+  width: 9vw;
+  height: 3vw;
+  float: left;
+  margin-top: 2vw;
+}
+
+.name {
+  font-size: 4vw;
+  font-family: 'Hipster Boss';
+}
+
+.description {
+  margin-top: 5vw;
+  width: 30.75vw;
+  float: left;
+}
+
